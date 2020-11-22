@@ -1,0 +1,35 @@
+{
+    "name": "d12",
+    "title": "d12 | Universal System",
+    "description": "A comprehensive system for running d12 games in Foundry VTT.",
+    "version": "0.1.0",
+    "minimumCoreVersion": "0.5.5",
+    "compatibleCoreVersion": "0.7.7",
+    "templateVersion": 1,
+    "author": "tanic5",
+    "esmodules": ["d12.js"],
+    "styles": ["styles/d12.css"],
+    "packs": [
+      {
+        "name": "basic",
+        "label": "Basic Items",
+        "system": "d12",
+        "path": "./pacs/basic.db",
+        "entity": "Item",
+        "tags": [
+          "money",
+          "skill"
+        ]
+      }
+    ],
+    "languages": [],
+    "initiative": "@stats.ag.value + @stats.in.value/2",
+
+    "gridDistance": 1,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "status.dc",
+    "secondaryTokenAttribute": "status.wp",
+    "url": "https://github.com/tanic5/d12/",
+    "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+    "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip"
+}

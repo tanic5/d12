@@ -30,6 +30,6 @@
     "primaryTokenAttribute": "status.dc",
     "secondaryTokenAttribute": "status.wp",
     "url": "https://github.com/tanic5/d12/",
-    "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
-    "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip"
+    "manifest": "https://github.com/tanic5/d12/system.json",
+    "download": ""
 }
